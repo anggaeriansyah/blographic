@@ -1,0 +1,65 @@
+/* .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+} */
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* .pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    z-index: 3;
+    color: #f0005c;
+    background-color: #eee;
+    border-color: #ddd;
+} */
+#fot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+#logs {
+    transition: 0.2s;
+    transform: rotate(0deg);
+}
+#logs:hover {
+    transition: 0.2s;
+    transform: rotate(-6deg);
+}
+
+#log img {
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+#log img:hover {
+    transition: 0.5s;
+    transform: rotate(-6deg);
+}
+
+.form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
